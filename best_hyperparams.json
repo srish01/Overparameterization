@@ -1,0 +1,52 @@
+{
+  "cifar10::ScalableResNet": {
+    "optimizer": "sgd",
+    "hyperparams": {
+      "lr": 0.01,
+      "momentum": 0.9,
+      "weight_decay": 0.0001
+    }
+  },
+  "cifar10::resnet": {
+    "optimizer": "sgd",
+    "hyperparams": {
+      "lr": 0.01,
+      "momentum": 0.9,
+      "weight_decay": 0.0005
+    },
+    "searched_capacities": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      48,
+      64
+    ]
+  },
+  "mnist::cnn": {
+    "optimizer": "adam",
+    "hyperparams": {
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    },
+    "searched_capacities": [
+      1,
+      2,
+      3
+    ]
+  },
+  "mnist::mlp": {
+    "optimizer": "sgd",
+    "hyperparams": {
+      "lr": 0.01,
+      "momentum": 0.9,
+      "weight_decay": 0.0005
+    },
+    "searched_capacities": [
+      1,
+      4,
+      6
+    ]
+  }
+}

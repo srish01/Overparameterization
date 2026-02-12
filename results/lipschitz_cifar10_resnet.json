@@ -1,0 +1,26 @@
+{
+    "1": {
+        "lipschitz_upper_bound": 103002440609.04074
+    },
+    "2": {
+        "lipschitz_upper_bound": 1260313193643.676
+    },
+    "4": {
+        "lipschitz_upper_bound": 11939969883328.77
+    },
+    "6": {
+        "lipschitz_upper_bound": 21257453935606.52
+    },
+    "8": {
+        "lipschitz_upper_bound": 59137676693808.15
+    },
+    "10": {
+        "lipschitz_upper_bound": 108250322368669.11
+    },
+    "16": {
+        "lipschitz_upper_bound": 254804052186239.0
+    },
+    "20": {
+        "lipschitz_upper_bound": 534779298451857.75
+    }
+}

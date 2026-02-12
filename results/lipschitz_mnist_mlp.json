@@ -1,0 +1,32 @@
+{
+    "1": {
+        "lipschitz_upper_bound": 55.96928474248831
+    },
+    "2": {
+        "lipschitz_upper_bound": 41.14476030334397
+    },
+    "3": {
+        "lipschitz_upper_bound": 42.223656636962936
+    },
+    "4": {
+        "lipschitz_upper_bound": 39.98110051733223
+    },
+    "5": {
+        "lipschitz_upper_bound": 38.02258417399918
+    },
+    "6": {
+        "lipschitz_upper_bound": 32.44233645975957
+    },
+    "7": {
+        "lipschitz_upper_bound": 31.776254152144553
+    },
+    "8": {
+        "lipschitz_upper_bound": 31.14589916994807
+    },
+    "9": {
+        "lipschitz_upper_bound": 28.8753413308081
+    },
+    "10": {
+        "lipschitz_upper_bound": 31.52762267264585
+    }
+}

@@ -1,0 +1,312 @@
+{
+  "cifar10::resnet::cap1": {
+    "capacity": 1,
+    "num_parameters": 175258,
+    "best_epoch": 836,
+    "train_acc": 0.9285,
+    "train_error": 0.07150000000000001,
+    "val_acc": 0.8863,
+    "val_error": 0.11370000000000002,
+    "checkpoint": "checkpoints/cifar10_ScalableResNet_1.pt"
+  },
+  "cifar10::resnet::cap2": {
+    "capacity": 2,
+    "num_parameters": 696618,
+    "best_epoch": 683,
+    "train_acc": 0.9648,
+    "train_error": 0.03520000000000001,
+    "val_acc": 0.9093,
+    "val_error": 0.0907,
+    "checkpoint": "checkpoints/cifar10_ScalableResNet_2.pt"
+  },
+  "cifar10::resnet::cap4": {
+    "capacity": 4,
+    "num_parameters": 2777674,
+    "best_epoch": 880,
+    "train_acc": 0.983375,
+    "train_error": 0.016625,
+    "val_acc": 0.922,
+    "val_error": 0.07799999999999996,
+    "checkpoint": "checkpoints/cifar10_ScalableResNet_4.pt"
+  },
+  "cifar10::resnet::cap6": {
+    "capacity": 6,
+    "num_parameters": 6243178,
+    "best_epoch": 712,
+    "train_acc": 0.988275,
+    "train_error": 0.011724999999999985,
+    "val_acc": 0.9276,
+    "val_error": 0.07240000000000002,
+    "checkpoint": "checkpoints/cifar10_ScalableResNet_6.pt"
+  },
+  "cifar10::resnet::cap8": {
+    "capacity": 8,
+    "num_parameters": 11093130,
+    "best_epoch": 580,
+    "train_acc": 0.991025,
+    "train_error": 0.008974999999999955,
+    "val_acc": 0.9296,
+    "val_error": 0.07040000000000002,
+    "checkpoint": "checkpoints/cifar10_ScalableResNet_8.pt"
+  },
+  "cifar10::resnet::cap16": {
+    "capacity": 16,
+    "num_parameters": 44337418,
+    "best_epoch": 882,
+    "train_acc": 0.992175,
+    "train_error": 0.007824999999999971,
+    "val_acc": 0.9391,
+    "val_error": 0.060899999999999954,
+    "checkpoint": "checkpoints/cifar10_ScalableResNet_16.pt"
+  },
+  "cifar10::resnet::cap20": {
+    "capacity": 20,
+    "num_parameters": 69266250,
+    "best_epoch": 719,
+    "train_acc": 0.995375,
+    "train_error": 0.00462499999999999,
+    "val_acc": 0.9375,
+    "val_error": 0.0625,
+    "checkpoint": "checkpoints/cifar10_ScalableResNet_20.pt"
+  },
+  "cifar10::resnet::cap24": {
+    "capacity": 24,
+    "num_parameters": 99732874,
+    "best_epoch": 255,
+    "train_acc": 0.992975,
+    "train_error": 0.007024999999999948,
+    "val_acc": 0.9379,
+    "val_error": 0.062100000000000044,
+    "checkpoint": "checkpoints/cifar10_ScalableResNet_24.pt"
+  },
+  "mnist::cnn::cap1": {
+    "capacity": 1,
+    "num_parameters": 344,
+    "best_epoch": 190,
+    "train_acc": 0.8938958333333333,
+    "train_error": 0.10610416666666667,
+    "val_acc": 0.8945,
+    "val_error": 0.10550000000000004,
+    "checkpoint": "checkpoints/mnist_ScalableCNN_1.pt"
+  },
+  "mnist::cnn::cap5": {
+    "capacity": 5,
+    "num_parameters": 6720,
+    "best_epoch": 157,
+    "train_acc": 0.9967916666666666,
+    "train_error": 0.0032083333333333686,
+    "val_acc": 0.9900833333333333,
+    "val_error": 0.009916666666666685,
+    "checkpoint": "checkpoints/mnist_ScalableCNN_5.pt"
+  },
+  "mnist::cnn::cap10": {
+    "capacity": 10,
+    "num_parameters": 26030,
+    "best_epoch": 85,
+    "train_acc": 0.9982916666666667,
+    "train_error": 0.0017083333333333117,
+    "val_acc": 0.9916666666666667,
+    "val_error": 0.008333333333333304,
+    "checkpoint": "checkpoints/mnist_ScalableCNN_10.pt"
+  },
+  "mnist::cnn::cap2": {
+    "capacity": 2,
+    "num_parameters": 1182,
+    "best_epoch": 188,
+    "train_acc": 0.9775625,
+    "train_error": 0.0224375,
+    "val_acc": 0.9743333333333334,
+    "val_error": 0.025666666666666615,
+    "checkpoint": "checkpoints/mnist_ScalableCNN_2.pt"
+  },
+  "mnist::cnn::cap3": {
+    "capacity": 3,
+    "num_parameters": 2524,
+    "best_epoch": 88,
+    "train_acc": 0.989125,
+    "train_error": 0.010874999999999968,
+    "val_acc": 0.98575,
+    "val_error": 0.014249999999999985,
+    "checkpoint": "checkpoints/mnist_ScalableCNN_3.pt"
+  },
+  "mnist::cnn::cap4": {
+    "capacity": 4,
+    "num_parameters": 4370,
+    "best_epoch": 181,
+    "train_acc": 0.9955208333333333,
+    "train_error": 0.004479166666666701,
+    "val_acc": 0.9876666666666667,
+    "val_error": 0.012333333333333307,
+    "checkpoint": "checkpoints/mnist_ScalableCNN_4.pt"
+  },
+  "mnist::cnn::cap6": {
+    "capacity": 6,
+    "num_parameters": 9574,
+    "best_epoch": 167,
+    "train_acc": 0.9975625,
+    "train_error": 0.0024374999999999813,
+    "val_acc": 0.9914166666666666,
+    "val_error": 0.008583333333333387,
+    "checkpoint": "checkpoints/mnist_ScalableCNN_6.pt"
+  },
+  "mnist::cnn::cap7": {
+    "capacity": 7,
+    "num_parameters": 12932,
+    "best_epoch": 82,
+    "train_acc": 0.9972916666666667,
+    "train_error": 0.0027083333333333126,
+    "val_acc": 0.9915833333333334,
+    "val_error": 0.008416666666666628,
+    "checkpoint": "checkpoints/mnist_ScalableCNN_7.pt"
+  },
+  "mnist::cnn::cap8": {
+    "capacity": 8,
+    "num_parameters": 16794,
+    "best_epoch": 119,
+    "train_acc": 0.9982291666666666,
+    "train_error": 0.001770833333333388,
+    "val_acc": 0.9925,
+    "val_error": 0.007499999999999951,
+    "checkpoint": "checkpoints/mnist_ScalableCNN_8.pt"
+  },
+  "mnist::cnn::cap9": {
+    "capacity": 9,
+    "num_parameters": 21160,
+    "best_epoch": 120,
+    "train_acc": 0.9984583333333333,
+    "train_error": 0.0015416666666666634,
+    "val_acc": 0.9925,
+    "val_error": 0.007499999999999951,
+    "checkpoint": "checkpoints/mnist_ScalableCNN_9.pt"
+  },
+  "mnist::mlp::cap2": {
+    "capacity": 2,
+    "num_parameters": 6594,
+    "best_epoch": 393,
+    "train_acc": 0.949875,
+    "train_error": 0.050124999999999975,
+    "val_acc": 0.93725,
+    "val_error": 0.06274999999999997,
+    "checkpoint": "checkpoints/mnist_ScalableMLP_2.pt"
+  },
+  "mnist::mlp::cap4": {
+    "capacity": 4,
+    "num_parameters": 13434,
+    "best_epoch": 334,
+    "train_acc": 0.9831458333333334,
+    "train_error": 0.016854166666666615,
+    "val_acc": 0.9676666666666667,
+    "val_error": 0.032333333333333325,
+    "checkpoint": "checkpoints/mnist_ScalableMLP_4.pt"
+  },
+  "mnist::mlp::cap6": {
+    "capacity": 6,
+    "num_parameters": 20530,
+    "best_epoch": 486,
+    "train_acc": 0.9924583333333333,
+    "train_error": 0.007541666666666669,
+    "val_acc": 0.9709166666666667,
+    "val_error": 0.02908333333333335,
+    "checkpoint": "checkpoints/mnist_ScalableMLP_6.pt"
+  },
+  "mnist::mlp::cap8": {
+    "capacity": 8,
+    "num_parameters": 27882,
+    "best_epoch": 420,
+    "train_acc": 0.9951041666666667,
+    "train_error": 0.0048958333333333215,
+    "val_acc": 0.97275,
+    "val_error": 0.027249999999999996,
+    "checkpoint": "checkpoints/mnist_ScalableMLP_8.pt"
+  },
+  "mnist::mlp::cap1": {
+    "capacity": 1,
+    "num_parameters": 3270,
+    "best_epoch": 367,
+    "train_acc": 0.8818125,
+    "train_error": 0.1181875,
+    "val_acc": 0.87975,
+    "val_error": 0.12024999999999997,
+    "checkpoint": "checkpoints/mnist_ScalableMLP_1.pt"
+  },
+  "mnist::mlp::cap10": {
+    "capacity": 10,
+    "num_parameters": 35490,
+    "best_epoch": 70,
+    "train_acc": 0.9958333333333333,
+    "train_error": 0.004166666666666652,
+    "val_acc": 0.976,
+    "val_error": 0.02400000000000002,
+    "checkpoint": "checkpoints/mnist_ScalableMLP_10.pt"
+  },
+  "mnist::mlp::cap3": {
+    "capacity": 3,
+    "num_parameters": 9982,
+    "best_epoch": 476,
+    "train_acc": 0.9735625,
+    "train_error": 0.026437500000000003,
+    "val_acc": 0.9589166666666666,
+    "val_error": 0.04108333333333336,
+    "checkpoint": "checkpoints/mnist_ScalableMLP_3.pt"
+  },
+  "mnist::mlp::cap5": {
+    "capacity": 5,
+    "num_parameters": 16950,
+    "best_epoch": 412,
+    "train_acc": 0.9898125,
+    "train_error": 0.010187500000000016,
+    "val_acc": 0.9698333333333333,
+    "val_error": 0.030166666666666675,
+    "checkpoint": "checkpoints/mnist_ScalableMLP_5.pt"
+  },
+  "mnist::mlp::cap7": {
+    "capacity": 7,
+    "num_parameters": 24174,
+    "best_epoch": 261,
+    "train_acc": 0.994125,
+    "train_error": 0.005874999999999964,
+    "val_acc": 0.974,
+    "val_error": 0.026000000000000023,
+    "checkpoint": "checkpoints/mnist_ScalableMLP_7.pt"
+  },
+  "mnist::mlp::cap9": {
+    "capacity": 9,
+    "num_parameters": 31654,
+    "best_epoch": 280,
+    "train_acc": 0.9960208333333334,
+    "train_error": 0.003979166666666645,
+    "val_acc": 0.9755,
+    "val_error": 0.024499999999999966,
+    "checkpoint": "checkpoints/mnist_ScalableMLP_9.pt"
+  },
+  "cifar10::resnet::cap10": {
+    "capacity": 10,
+    "num_parameters": 17327530,
+    "best_epoch": 905,
+    "train_acc": 0.9909,
+    "train_error": 0.009099999999999997,
+    "val_acc": 0.9368,
+    "val_error": 0.06320000000000003,
+    "checkpoint": "checkpoints/cifar10_ScalableResNet_10.pt"
+  },
+  "cifar10::resnet::cap26": {
+    "capacity": 26,
+    "num_parameters": 117042858,
+    "best_epoch": 865,
+    "train_acc": 0.995725,
+    "train_error": 0.004275000000000029,
+    "val_acc": 0.9375,
+    "val_error": 0.0625,
+    "checkpoint": "checkpoints/cifar10_ScalableResNet_26.pt"
+  },
+  "cifar10::resnet::cap28": {
+    "capacity": 28,
+    "num_parameters": 135737290,
+    "best_epoch": 801,
+    "train_acc": 0.996525,
+    "train_error": 0.003475000000000006,
+    "val_acc": 0.9413,
+    "val_error": 0.058699999999999974,
+    "checkpoint": "checkpoints/cifar10_ScalableResNet_28.pt"
+  }
+}
