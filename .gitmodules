@@ -1,0 +1,3 @@
+[submodule "lipestime"]
+	path = lipestime
+	url = https://github.com/fabiobrau/lipestime/tree/main
